@@ -1,0 +1,109 @@
+.settingsContainer {
+    width: 100%; /* dopasowane do szerokości settingsSection w WebEditor */
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .settingsGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .settingsGroup h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--primary);
+  }
+  
+  .settingsRow {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+  }
+  
+  .settingsRow label {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+  }
+  
+  .settingsRow input,
+  .settingsRow select,
+  .settingsRow textarea {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-color);
+    color: var(--text-primary);
+    box-sizing: border-box;
+  }
+  
+  .sharedSettings h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--primary);
+  }
+  
+  .presetGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .presetButton {
+    padding: 0.5rem;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    background: var(--bg-color);
+    color: var(--primary);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  
+  .presetButton:hover {
+    background: var(--primary);
+    color: var(--bg-color);
+  }
+  
+  .buttonGroup button {
+    margin-right: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-color);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  
+  .activeButton {
+    background: var(--primary);
+    color: var(--bg-color);
+  }
+  
+  .collapsibleSection {
+    margin-bottom: 1rem;
+  }
+  .sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .sectionContent {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  
